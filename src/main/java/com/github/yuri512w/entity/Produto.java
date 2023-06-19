@@ -18,7 +18,7 @@ public class Produto extends PanacheEntity {
 
     public String descricao;
 
-    public BigDecimal valor;
+    public Double valor;
 
     @CreationTimestamp
     public Date dataCriacao;

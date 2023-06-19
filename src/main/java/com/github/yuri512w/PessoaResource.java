@@ -15,7 +15,7 @@ import java.util.Optional;
 
 
 @Path("pessoas")
-@Tag(name = "pessoas", description = "Operações relacionadas a produtos")
+@Tag(name = "Pessoas", description = "Operações relacionadas a produtos")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class PessoaResource {
